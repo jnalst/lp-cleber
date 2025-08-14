@@ -1,0 +1,153 @@
+.main-bg {
+  background-color: #2d7486;
+  box-shadow: 0px 2px 4rem rgb(0 0 0 / 25%) !important;
+  padding-top: 6.4rem;
+  padding-bottom: 3.2rem;
+}
+
+.swiper-slide {
+  display: grid !important;
+  grid-template-columns: 500px 1fr !important;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 8.2rem;
+  place-self: center;
+}
+
+.swiper-slide:first-child {
+  padding-left: 6.4rem;
+}
+
+.news1 .news1-text h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 4.2rem;
+  color: #eeeeee;
+  padding-bottom: 2rem;
+}
+
+.news1 .news1-text p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 2rem;
+  color: #eeeeee;
+  max-width: 40ch;
+}
+
+.news1 picture {
+  padding-right: 0 !important;
+  max-width: 650px;
+  place-self: center;
+}
+
+.news2 .news2-text h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 4.2rem;
+  color: #eeeeee;
+  padding-bottom: 2rem;
+  margin-block: 0rem;
+  margin-inline: 0rem;
+}
+
+.news2 .news2-text p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 2rem;
+  color: #eeeeee;
+  max-width: 40ch;
+}
+
+.news2 picture {
+  padding-right: 0 !important;
+  max-width: 650px;
+  place-self: center;
+}
+
+.news3 .news3-text h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 4.2rem;
+  color: #eeeeee;
+  padding-bottom: 2rem;
+}
+
+.news3 .news3-text p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 2rem;
+  color: #eeeeee;
+  max-width: 40ch;
+}
+
+.news3 picture {
+  padding-right: 0 !important;
+  max-width: 650px;
+  place-self: center;
+}
+
+.news4 .news4-text h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 4.2rem;
+  color: #eeeeee;
+  padding-bottom: 2rem;
+}
+
+.news4 .news4-text p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 2rem;
+  color: #eeeeee;
+  max-width: 40ch;
+}
+
+.news4 picture {
+  padding-right: 0 !important;
+  max-width: 650px;
+  place-self: center;
+}
+
+.news5 .news5-text h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 4.2rem;
+  color: #eeeeee;
+  padding-bottom: 2rem;
+}
+
+.news5 .news5-text p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 2rem;
+  color: #eeeeee;
+  max-width: 40ch;
+}
+
+.news5 picture {
+  padding-right: 0 !important;
+  max-width: 650px;
+  place-self: center;
+}
+
+.swiper-pagination-bullet {
+  width: 16px !important;
+  height: 16px !important;
+  background-color: #323030 !important;
+}
+
+.swiper-pagination-bullet-inactive-color {
+  background: #323030 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #eeeeee !important;
+}
+
+.swiper-button-prev {
+  color: #eeeeee !important;
+}
+
+.swiper-button-next {
+  color: #eeeeee !important;
+}
