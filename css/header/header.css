@@ -1,0 +1,45 @@
+.header-bg {
+  background-color: #eeeeee;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding-block: 2.4rem;
+}
+
+.header-logo {
+  display: block;
+  max-width: 228px;
+  max-height: 75px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 1.2rem;
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #16425b;
+  align-items: center;
+}
+
+.header-menu li:last-child {
+  padding-block: 1rem;
+  padding-inline: 1.2rem;
+  background-color: #16425b;
+  color: #eeeeee;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.header-menu .button:hover {
+  color: #3a7ca5;
+}
+  
+.header-menu li:last-child:hover {
+  background-color: #3a7ca5;
+  transition: 0.5 all;
+}

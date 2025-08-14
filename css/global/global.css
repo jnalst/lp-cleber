@@ -1,0 +1,44 @@
+:root {
+  font-size: 62.5%;
+  /* 1 rem = 10px */
+}
+
+
+
+body {
+  margin: 0rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h3,
+h2,
+p,
+span,
+ul,dd {
+  margin: 0rem;
+}
+
+ul {
+  margin: 0rem;
+  padding: 0rem;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1440px;
+    padding-inline: 2rem;
+    margin-inline: auto;
+}
