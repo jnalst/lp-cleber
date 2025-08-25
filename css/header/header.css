@@ -44,3 +44,28 @@
   background-color: #3a7ca5;
   transition: 0.5 all;
 }
+
+@media screen and (max-width: 870px) {
+  .head {
+    gap: 0.5rem;
+  }
+  
+  .header-menu .button {
+    display: none;
+  }
+
+  .header-menu {
+    font-size: 1.6rem;
+  }
+  
+}
+
+@media screen and (max-width: 525px) {
+.header-menu {
+    font-size: 1.2rem;
+  }
+
+  .header-logo {
+    max-width: 134px;
+  }
+}

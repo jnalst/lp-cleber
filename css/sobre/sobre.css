@@ -1,0 +1,85 @@
+.sobre-bg {
+  background-color: #2d7486;
+  padding-block: 12.8rem;
+}
+
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  justify-items: end;
+  padding-inline: 2rem;
+}
+
+.sobre-texto {
+  font-family: "Poppins";
+  text-align: end;
+}
+
+.sobre-img {
+  max-width: 700px;
+  min-width: 320px;
+}
+
+.sobre-texto h4 {
+  font-size: 4.2rem;
+  color: #eeeeee;
+  text-align: end;
+}
+
+.sobre-texto p {
+  font-size: 2rem;
+  color: #eeeeee;
+  max-width: 50ch;
+  text-align: end !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .sobre-texto h4 {
+    font-size: 3.2rem;
+    color: #eeeeee;
+    text-align: end;
+  }
+
+  .sobre-texto p {
+    font-size: 1.6rem;
+    color: #eeeeee;
+    max-width: 50ch;
+    text-align: end !important;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .sobre {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  .sobre-texto h4 {
+    font-size: 4.2rem;
+    text-align: center;
+  }
+
+  .sobre-texto p {
+    text-align: center !important;
+    font-size: 2rem;
+  }
+
+  .sobre-bg {
+    padding-block: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 525px) {
+
+    .sobre-texto h4 {
+    font-size: 3.2rem;
+  }
+
+  .sobre-texto p {
+    text-align: center !important;
+    font-size: 1.4rem;
+  }
+}

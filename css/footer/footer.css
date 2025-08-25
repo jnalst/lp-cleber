@@ -1,0 +1,60 @@
+.footer-bg {
+  background-color: #eeeeee;
+  padding-block: 4rem;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  place-items: center;
+  gap: 1rem;
+}
+
+.footer-LogoRedes .footerlogo {
+  max-width: 408px;
+  padding-bottom: 1rem;
+}
+
+.footer-LogoRedes .footerRedes {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.footer-Dados {
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  justify-items: start;
+  color: #16425b;
+}
+
+.footer-Dados li {
+  margin-bottom: 1rem;
+}
+
+.footer-Dados li p {
+  max-width: 33ch;
+}
+
+.footer-versiculo {
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  justify-items: start;
+  color: #16425b;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+.footer-LogoRedes .footerlogo img {
+  max-width: 260px;
+}
+
+.footerRedes img {
+  max-width: 4.2rem;
+}
+}

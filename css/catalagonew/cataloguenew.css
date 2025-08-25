@@ -1,11 +1,12 @@
 .cataloguenew-bg {
   background-color: #eeeeee;
   padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
 }
 
 .cataloguenew-text {
   display: grid;
-  place-items: center;
+  place-self: center;
   font-family: "Poppins";
 }
 
@@ -17,6 +18,105 @@
 }
 
 .cataloguenew-text picture {
-    max-width: 472px;
-    padding-bottom: 6.4rem;
+  max-width: 472px;
+  padding-bottom: 5.4rem;
+}
+
+.productsnew {
+  display: flex;
+  padding-bottom: 3.2rem;
+  align-items: start;
+  gap: 1.2rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohidding-scrollbar;
+}
+
+.productsnew > li {
+  min-width: 358px;
+}
+
+.productsamsung {
+  background-color: #2d7486;
+  width: 358px;
+  height: 564px;
+  font-family: "Poppins";
+  box-shadow: 0px 2px 0.5rem rgb(0 0 0 / 25%);
+  border-radius: 2rem;
+}
+
+.productsamsunginfo {
+  width: 358px;
+  height: 564px;
+  display: grid;
+  place-self: botton;
+  grid-template-rows: 85px 370px 1fr;
+  box-shadow: inset 0rem -27rem #eeeeee;
+  border-radius: 2rem 2rem;
+}
+
+.productsamsunginfo h3 {
+  place-self: center;
+  font-size: 4.2rem;
+  color: #eeeeee;
+}
+
+.productsamsunginfo img {
+  max-width: 310px;
+  justify-self: center;
+  border-radius: 2rem;
+}
+
+.productsamsunginfo p {
+  justify-self: center;
+  max-width: 30ch;
+  color: #16425b;
+  font-size: 1.6rem;
+  padding-bottom: 3rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+  .cataloguenew-text h2 {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+  }
+
+  .cataloguenew-text picture {
+    max-width: 258px;
+    padding-bottom: 2.4rem;
+  }
+
+  .productsnew > li {
+    min-width: 295px;
+  }
+
+  .productsamsung {
+    width: 295px;
+    height: 466px;
+  }
+
+  .productsamsunginfo {
+    width: 295px;
+    height: 466px;
+    display: grid;
+    grid-template-rows: 56px 310px 1fr;
+  }
+
+  .productsamsunginfo h3 {
+    font-size: 2.8rem;
+  }
+
+  .productsamsunginfo img {
+    max-width: 256px;
+  }
+
+  .productsamsunginfo p {
+    justify-self: center;
+    max-width: 30ch;
+    color: #16425b;
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
+    font-weight: 700;
+  }
 }
