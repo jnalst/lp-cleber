@@ -24,6 +24,7 @@
   font-size: 4.2rem;
   color: #eeeeee;
   padding-bottom: 2rem;
+  padding-left: 1rem;
 }
 
 .news1-text p,
@@ -36,6 +37,7 @@
   font-size: 2rem;
   color: #eeeeee;
   max-width: 40ch;
+  padding-left: 1rem;
 }
 
 .news1-foto img,
@@ -45,6 +47,7 @@
 .news5-foto img {
   max-width: 650px;
   place-self: center;
+  border-radius: 2rem;
 }
 
 .swiper-pagination-bullet {
@@ -148,7 +151,7 @@
 
 @media screen and (max-width: 466px) {
   .slide-news {
-    align-items: center;
+    place-items: center;
   }
   .swiper-button-prev {
     display: none !important;
