@@ -38,23 +38,41 @@
 
 .footer-versiculo {
   font-family: "Poppins";
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   justify-items: start;
   color: #16425b;
-  font-weight: 700;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.footer-versiculo h6 {
+  font-size: 1.8rem;
 }
 
 @media screen and (max-width: 800px) {
   .footer {
-  grid-template-columns: 1fr;
-  gap: 3rem;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .footer-LogoRedes .footerlogo img {
+    max-width: 260px;
+  }
+
+  .footerRedes img {
+    max-width: 4.2rem;
+  }
 }
 
-.footer-LogoRedes .footerlogo img {
-  max-width: 260px;
-}
+@media screen and (max-width: 500px) {
+  .footer-Dados {
+    font-size: 1.4rem;
+  }
+  .footer-versiculo {
+    font-size: 1.2rem;
+  }
 
-.footerRedes img {
-  max-width: 4.2rem;
-}
+  .footer-versiculo h6 {
+    font-size: 1.4rem;
+  }
 }

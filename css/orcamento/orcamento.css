@@ -133,8 +133,8 @@
     margin-top: 2rem;
 }
 
-#monteconosco:checked~#orcamento-dec,
-#peguemonte:checked~#orcamento-dec2 {
+#novoequip:checked~#orcamento-dec,
+#seminovoequip:checked~#orcamento-dec2 {
     display: grid;
     gap: 2rem;
 }

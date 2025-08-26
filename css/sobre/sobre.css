@@ -22,6 +22,11 @@
   min-width: 320px;
 }
 
+.sobre-img img {
+  border-radius: 10rem 0rem;
+  box-shadow: -10px -10px 0px 2px #eeeeee;
+}
+
 .sobre-texto h4 {
   font-size: 4.2rem;
   color: #eeeeee;
@@ -73,8 +78,7 @@
 }
 
 @media screen and (max-width: 525px) {
-
-    .sobre-texto h4 {
+  .sobre-texto h4 {
     font-size: 3.2rem;
   }
 

@@ -1,16 +1,16 @@
 function validarVariaveis() {
-  var festa = document.querySelector('input[name="festa"]:checked');
-  var pacote = document.querySelector('input[name="pacote"]:checked');
+  var novo = document.querySelector('input[name="novo"]:checked');
+  var seminovo = document.querySelector('input[name="seminovo"]:checked');
 
-  if (festa && pacote) {
+  if (novo && seminovo) {
     // Ambas as variáveis são válidas
-    return pacote.value;
-  } else if (festa) {
+    return seminovo.value;
+  } else if (novo) {
     // Somente a variável festa é válida
-    return festa.value;
-  } else if (pacote) {
+    return novo.value;
+  } else if (seminovo) {
     // Somente a variável pacote é válida
-    return pacote.value;
+    return seminovo.value;
   } else {
     // Nenhuma das variáveis é válida
     console.log("Nenhuma das variáveis é válida.");
@@ -22,10 +22,10 @@ function wpp() {
   var telefone = document.getElementById("telefone").value;
   var email = document.getElementById("email").value;
   var msg = document.getElementById("msg").value;
-  var url = "https://wa.me/5511994410421?text=" // Seu numero
+  var url = "https://wa.me/554792222016?text=" // Seu numero
     + "*Orçamento*" + "%0a" // Mensagem personalizada
     + "%0a" // Quebra de linha
-    + "*Sobre*: " + validarVariaveis() + "%0a" 
+    + "*Interesse em equipamentos*: " + validarVariaveis() + "%0a" 
     + "%0a" // Quebra de linha
     + "*Nome*: " + nome + "%0a" // Dados do formulário
     + "*Telefone*: " + telefone + "%0a"
