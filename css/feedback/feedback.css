@@ -35,11 +35,11 @@
   margin-left: 0rem;
 }
 
-.feedback1-text span,
-.feedback2-text span,
-.feedback3-text span,
-.feedback4-text span,
-.feedback5-text span {
+.feedback1-text .feedback-cidade,
+.feedback2-text .feedback-cidade,
+.feedback3-text .feedback-cidade,
+.feedback4-text .feedback-cidade,
+.feedback5-text .feedback-cidade {
   font-family: "Poppins";
   font-weight: 700;
   font-size: 1.8rem;
@@ -126,7 +126,7 @@
   .feedback4-text p,
   .feedback5-text p {
     font-size: 1.6rem;
-    place-self: start;
+    place-self: center;
     margin-left: 0rem;
   }
 }
@@ -155,11 +155,32 @@
     font-size: 3.2rem !important;
   }
 
+  .feedback1-text h6,
+  .feedback2-text h6,
+  .feedback3-text h6,
+  .feedback4-text h6,
+  .feedback5-text h6 {
+    text-align: center;
+  }
+
   .feedback1-text p,
   .feedback2-text p,
   .feedback3-text p,
   .feedback4-text p,
   .feedback5-text p {
     font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .feedback-slide {
+    padding-inline: 1rem;
+  }
+
+  .feedback1-text .feedback-cidade,
+  .feedback2-text .feedback-cidade,
+  .feedback3-text .feedback-cidade,
+  .feedback4-text .feedback-cidade,
+  .feedback5-text .feedback-cidade {
+    text-align: center;
   }
 }
